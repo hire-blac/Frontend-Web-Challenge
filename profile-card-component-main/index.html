@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Profile card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+
+    body {
+      font-family: "Kumbh Sans", "https://fonts.google.com/specimen/Kumbh+Sans";
+      font-size: 18px;
+      background: url("images/bg-pattern-top.svg"), url("images/bg-pattern-bottom.svg"), hsl(185, 75%, 39%);
+      background-repeat: no-repeat, no-repeat;
+      background-position-x: -700px, 200px;
+      background-position-y: -600px, 300px;
+    }
+    strong {
+      color: black;
+    }
+    small {
+      font-size: 0.6em;
+    }
+    .card {
+      text-align: center;
+      width: 340px;
+      height: 370px;
+      color: hsl(0, 0%, 59%);
+      background: white url("images/bg-pattern-card.svg") no-repeat;
+      margin: 150px auto 80px;
+      border-radius: 20px;
+      box-shadow: 2px 5px 30px rgba(85, 85, 85, 0.4);
+    }
+    .profile-pic img {
+      margin: 90px auto 20px;
+      border: solid 5px white;
+      border-radius: 100%;
+    }
+    .name {
+      width: 120px;
+      margin: 0 auto 20px;
+      line-height: 25px;
+    }
+    .details {
+      text-align: center;
+      padding-left: 0;
+      overflow: auto;
+    }
+    .details ul {
+      list-style-type: none;
+      margin-right: auto;
+    }
+    .details li {
+      float: left;
+      width: 80px;
+      margin: 0 5px;
+    }
+    .attribution {
+      font-size: 13px;
+      color: white;
+      text-align: center;
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+    }
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+      text-shadow: none;
+    }
+    @media screen and (min-width: 376px) {
+      body {
+        font-family: "Kumbh Sans", "https://fonts.google.com/specimen/Kumbh+Sans";
+        font-size: 18px;
+        background: url("images/bg-pattern-top.svg"), url("images/bg-pattern-bottom.svg"), hsl(185, 75%, 39%);
+        background-repeat: no-repeat, no-repeat;
+        background-position-x: -350px, 650px;
+        background-position-y: -500px, 300px;
+      }
+      .card {
+        width: 350px;
+        height: 380px;
+      }
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <div class="profile-pic">
+      <img src="images/image-victor.jpg" alt="victor">
+    </div>
+
+    <div class="name">
+      <strong>Victor Crest</strong> 26<br>
+      <small style="font-size: 0.8em;">London</small> 
+    </div>
+    <hr>
+    <div class="details">
+      <ul>
+        <li><strong>80K</strong><br>
+        <small>Followers</small> </li>
+
+        <li><strong>803K</strong><br>
+        <small>Likes</small> </li>
+
+        <li><strong>1.4K</strong><br> 
+        <small>Photos</small></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">danihire</a>.
+  </div>
+</body>
+</html>
