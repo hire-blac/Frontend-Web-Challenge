@@ -1,0 +1,159 @@
+body {
+  font-size: 12px;
+  background: hsl(210, 46%, 95%);
+  color: hsl(0, 0%, 81%);
+}
+.bg-image {
+  background: url('images/bg-pattern-quotation.svg'), hsl(263, 55%, 52%);
+  background-repeat: no-repeat;
+  background-position-x: 80%;
+}
+.testimonial {
+  opacity: 0.7;
+}
+.details {
+  display: inline-block;
+}
+.graduate {
+  display: inline-block;
+  padding: 5px;
+}
+.graduate h4 {
+  display: inline;
+  margin-bottom: 5px;
+}
+img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  border-radius: 100%;
+}
+em {
+  display: block;
+  opacity: 0.5;
+  font-style: normal;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+.flexbox {
+  width: 100%;
+  margin: 20px 0;
+}
+.flex-item1 {
+  width: 100%;
+  height: auto;
+  margin: 20px 0 0;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 7px;
+  box-shadow: 5px 5px 15px #ccc;
+}
+.flex-item2 {
+  width: 100%;
+  height: auto;
+  margin: 20px 0 0;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 7px;
+  box-shadow: 5px 5px 15px #ccc;
+}
+.sidebar {
+  width: 100%;
+  background: white;
+  margin: 20px 0;
+  padding: 20px;
+  box-sizing: border-box;
+  box-shadow: 5px 5px 15px #ccc;
+  border-radius: 7px;
+}
+@media screen and (min-width: 376px) {
+  .container {
+    width: 80%;
+    margin: 50px auto;
+    box-sizing: border-box;
+  }
+  .flexbox {
+    width: 100%;
+    margin: 20px auto;
+  }
+  .flex-item1 {
+    width: 80%;
+    height: auto;
+    margin: 20px auto;
+    box-sizing: border-box;
+    border-radius: 7px;
+    box-shadow: 20px 20px 50px #ccc;
+    overflow: auto;
+  }
+  .flex-item2 {
+    width: 80%;
+    height: auto;
+    margin: 20px auto;
+    box-sizing: border-box;
+    border-radius: 7px;
+    box-shadow: 20px 20px 50px #ccc;
+    overflow: auto;
+  }
+  .sidebar {
+    width: 80%;
+    background: white;
+    margin: 20px auto;
+    box-sizing: border-box;
+    box-shadow: 20px 20px 50px #ccc;
+    border-radius: 7px;
+  }
+}
+@media screen and (min-width: 1050px) {
+  .container {
+    display: flex;
+    width: 80%;
+    margin: 50px auto;
+    box-sizing: border-box;
+  }
+  .flexbox {
+    width: 80%;
+    margin: 0;
+    float: left;
+    flex-wrap: wrap;
+  }
+  .flex-item1 {
+    width: 69%;
+    height: 280px;
+    float: left;
+    margin: 0;
+    box-sizing: border-box;
+    border-radius: 7px;
+    box-shadow: 20px 20px 50px #ccc;
+    overflow: auto;
+  }
+  .flex-item2 {
+    width: 29%;
+    height: 280px;
+    float: left;
+    margin: 0;
+    box-sizing: border-box;
+    border-radius: 7px;
+    box-shadow: 20px 20px 50px #ccc;
+    overflow: auto;
+  }
+  .sidebar {
+    width: 20%;
+    background: white;
+    float: left;
+    margin: 0 0 0 15px;
+    box-sizing: border-box;
+    box-shadow: 20px 20px 50px #ccc;
+    border-radius: 7px;
+  }
+  .move-right {
+    float: right;
+  }
+  .bottom-row {
+    margin-top: 15px;
+  }
+}
+.attribution { font-size: 11px; color: black; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
